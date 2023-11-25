@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+   
+    .nav-bar {
+      background-color: antiquewhite;
+      padding: 20px;
+    }
+
+    .nav-bar a {
+      background-color: blue;
+      color: white;
+      display: block; 
+      margin-bottom: 5px;
+      padding: 10px;
+      text-decoration: none; 
+    }
+
+    .nav-bar a:hover {
+      background-color: red;
+    }
+
+    .content {
+      background-color: yellow; 
+      padding: 20px;
+    }
+
+    .footer {
+      background-color: lightgray; 
+      padding: 20px;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="nav-bar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="content">
+    <!-- Your main content goes here -->
+    <p>Main content goes here...</p>
+  </div>
+
+  <div class="footer">
+    <!-- Footer content goes here -->
+    <p>Footer content goes here...</p>
+  </div>
+</body>
+</html>
