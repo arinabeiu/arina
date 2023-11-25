@@ -39,6 +39,24 @@ filter: grayscale(100%) invert(100%);
 </head>
 <body>
 
-<div class="NAV">
+<div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+ <div class="banner">
+  <img src="your_image_url_here.jpg" alt="Your Image">
+</div>
+
+<div class="content">
+  <h2>Welcome to Our Website!</h2>
+  <p>This is the content section where you can put information about your services, products, or any other relevant details.</p>
+</div>
+
+<div class="footer">
+  <p>Contact us: contact@example.com | Phone: 123-456-7890</p>
+  <p>&copy; 2023 YourWebsite.com</p>
+</div>
 </body>
 </html>
