@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations and Interactions</title>
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+   
+    .card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+
+    .btn-custom {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      background-color: #45a049;
+    }
+
+   
+    .custom-svg {
+      fill: #333;
+      width: 100px;
+      height: 100px;
+      transition: fill 0.3s ease;
+    }
+
+    .custom-svg:hover {
+      fill: #f00;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+  <div class="container mx-auto mt-5">
+    <h1 class="text-3xl font-bold mb-5">Animations and Interactions</h1>
+
+
+    <div class="card mb-4 border border-gray-300 rounded-md p-4 shadow-md hover:shadow-lg transition duration-300">
+      <h2 class="text-xl font-semibold mb-2">Bootstrap Card</h2>
+      <p>This is a Bootstrap card with a hover animation using custom CSS.</p>
+    </div>
+ <button class="btn-custom mt-4">Tailwind Button</button>
+    <ul class="mt-6">
+      <li class="list-disc ml-5">Item 1</li>
+      <li class="list-disc ml-5">Item 2</li>
+      <li class="list-disc ml-5">Item 3</li>
+    </ul>
+
+   
+    <div class="bg-white p-4 mt-6 border border-gray-300 rounded-md shadow-md hover:shadow-lg transition duration-300">
+      <p class="text-lg font-semibold">Styled Div</p>
+      <span class="text-gray-500">This is a styled div with Tailwind classes applied.</span>
+    </div>
+
+   
+    <meta name="description" content="Website description">
+
+    <script>
+      console.log('Hello, from the script!');
+    </script>
+
+    
+    <svg class="custom-svg mt-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10s-4.486-10-10-10zm5.648 15.852l-1.414 1.414L12 15.414l-4.236 4.236l-1.414-1.414L10.586 14l-4.236-4.236l1.414-1.414L12 12.586l4.236-4.236l1.414 1.414L13.414 14z"/>
+    </svg>
+  </div>
+
+</body>
+</html>
