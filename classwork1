@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body{
+padding: 20px;
+}
+.header{
+background-color: rgb(0,22,110);
+font-family:Verdana,Geneva,Tahoma,sans-serif;
+font-weight:100;
+text-align:center;
+padding:10px;
+color: white;
+margin-bottom: 10px;
+}
+.content{
+background: #9af7ff;
+font-family:'Lucida Sans','Lucida Sans Rgular','Lucida Sans Intense';
+padding:10px;
+margin-bottom: 10px;
+}
+.footer{
+background: #184282;
+color: white;
+padding:10px;
+}
+.bold{
+text-transform: uppercase;
+font-weight: 900;
+color: yellow;
+}
 
+    </style>
+  </head>
+  <body>
+<div class="header">
+<h1>Importance of <span class="bold"> Extracurricular Activities </span> in Students' Lives</h1>
+</div>
+<div class="content">
+   <p>Extracurricular activities are like the secret sauce in a student's recipe for success. <br>
+Sure, studies are important, but these activities—be it sports, clubs, arts, or anything fun—add flavor to a student's life.<br>
+They're not just for fun; they teach things you might not learn in textbooks, like working with others, managing time, and solving real-world problems.<br> 
+Imagine learning teamwork while playing a sport or discovering your hidden talent for painting in an art club.<br>
+Think of it as a healthy balance.<br>
+These activities take the edge off from study stress and keep you happier and healthier.<br>
+Plus, they're a sneak peek into what you might love doing in the future.</p>
+<h2>WHAT ARE EXTRACURRICULAR ACTIVITIES</h2>
+<p><span class="bold>Extracurricular Activities</span>
+These activities aren't about getting grades; they're about getting skills.<br>
+They teach teamwork, leadership, time management, and a whole bunch of other skills that you won't necessarily find in textbooks. <br>
+Plus, they're a great way to explore what you're interested in and maybe discover a hidden talent or passion you never knew you had.<br>
+Even though they might take up extra time outside of class, these activities are totally worth it.<br>
+They help you grow as a person, boost your confidence, and make you stand out when you're applying for college or jobs. <br>
+They're not just fun hobbies; they're the secret ingredient that makes your student experience more exciting and rewarding.</p>
+</div>
+<div class="footer">
+<p>Non-academic subjects encompass a wide array of topics and areas of study that aren't directly related to traditional academic disciplines<br>
+like math, science, language arts, and social studies. These subjects focus on different aspects of<br>
+human expression, practical skills, creativity, and personal development</p>
+<p>"Homeguru" isn't a specific term I'm familiar with. However, it sounds like it might relate to<br>
+someone who is knowledgeable or an expert in matters related to homes, possibly in terms of home improvement, interior design, real estate, or even<br>
+someone providing guidance and advice for home-related topics.</p>
+</div>
+</body>
+</html>
