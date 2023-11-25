@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p:hover{
+            color: green;
+            font-weight:bold;
+        }
+        p::before{
+            content: "Hello";
+            color: red;
+            font-weight: bold;
+        }
+          p::after{
+            content: "Bye!";
+            color: red;
+            font-weight: bold;
+        }
+          p::selection{
+            background-color: purple;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+   <p>Paint me!</p>
+</html>
